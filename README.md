@@ -65,7 +65,7 @@ pip install https://github.com/KittenML/KittenTTS/releases/download/0.8/kittentt
 from kittentts import KittenTTS
 m = KittenTTS("KittenML/kitten-tts-mini-0.8")
 
-audio = m.generate("This high quality TTS model works without a GPU", voice='Jasper' )
+audio = m.generate("This high quality TTS model works without a GPU.", voice='Jasper' )
 
 # available_voices : ['Bella', 'Jasper', 'Luna', 'Bruno', 'Rosie', 'Hugo', 'Kiki', 'Leo']
 
